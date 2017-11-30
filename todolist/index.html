@@ -139,8 +139,9 @@
                     <p>${value.content}</p>
                     <div class="del">X</div></li>
                `;
-                $(".doing").html(str)
+                
             });
+            $(".doing").html(str)
             let atr=``;
             done.forEach((value)=>{
                 let id=value.id;
@@ -148,8 +149,9 @@
                     <p>${value.content}</p>
                     <div class="del">X</div></li>
                `;
-                $(".done").html(atr)
+               
             });
+             $(".done").html(atr)
             /*localStorage.todo=JSON.stringify(todo)*/
         }
         render();
